@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+.plate {
+  width: 410px;
+  margin: 10% auto;
+}
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 60px;
+}
+.text2 {
+  font-size: 169px;
+}
+.text3 {
+  font-size: 60px;
+}
+
+.baloo{
+    font-family: "Baloo Bhaina 2";
+}
+.meredina{
+    font-family: "Merienda One";
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  width: 100%;
+  z-index: 10;
+
+}
+.logo{
+  float:left;
+  width: 124px;
+  padding: 10px 20px;
+  font-size: 30px;
+  color: white;
+}
+.list{
+  float: right;
+  padding-top: 20px;
+  font-size: 25px;
+}
+.list-item{
+  padding-right: 100px;
+  color: white;
+  display:inline-block;
+  border: 10px;
+  
+}
+.list-item:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.img-section{
+background-image: url(img/burger.jpg);
+background-size:cover;
+height: 700px;
+position: relative;
+width: 100%;
+}
+.style-logo{
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+.about-page{
+  padding:100px 40px;
+  margin:10px;
+  display: inline-block;
+}
+.about img{
+  padding-left: 10px;
+  margin-top: 30px;
+  float: left;
+  padding-right: 130px;
+}
+
+.abt-list{
+  /* float: left; */
+  padding-left: 50px;
+  width: 100%;
+}
+
+.about-content h1{
+  padding-left: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+.about-content h5{
+  font-size: 30px;
+}
+.about-content p{
+  font-size: 20px;
+}
+.brand-section{
+  padding:50px 40px;
+}
+.brands{
+  float: left;
+}
+.brand-section:after {
+  /* done to Clear floats after the columns */
+
+  content: "";
+  display: table;
+  clear: both;
+}
+.brands h1{
+  font-size: 50px;
+
+}
+.brands h4{
+  font-size: 30px;
+}
+.brands p{
+  font-size: 20px;
+}
+
+.contact-det{
+  background-color: rgb(164, 164, 170);
+  padding: 20px;
+}
+.footer-disp{
+  background-color: aqua;
+  width: 100%;
+  height:60px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* --------------------------------------------------------------- */
+/* css for zomatoOff.html */
+section{
+  display: flex;
+}
+.offer{
+  margin-top: 100px;
+  width: 25%;
+  padding: 25px 50px;
+}
+.offer img{
+  width: 100%;
+}
